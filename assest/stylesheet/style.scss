@@ -367,6 +367,10 @@ h5 {
     display: none;
   }
 
+  .social ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
   aside {
     position: fixed;
     z-index: 99;
@@ -397,16 +401,6 @@ h5 {
     z-index: 990;
     font-size: 1.5rem;
   }
-
-  // #bar {
-  //   display: block;
-  //   font-size: 4rem;
-  //   position: fixed;
-  //   top: 0;
-  //   left: 0;
-  //   z-index: 999;
-  //   color: black;
-  // }
 
   .main img {
     width: 90%;
