@@ -1,0 +1,93 @@
+body {
+  line-height: 1.5;
+
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+* *::after *::before {
+  box-sizing: border-box;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-48 {
+  display: flex;
+  flex: 0 1 48%;
+}
+
+@keyframes slide-1 {
+  25% {
+    background: url(../media/projects/responsive/owner.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  50% {
+    background: url(../media/projects/responsive/poducts.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  75% {
+    background: url(../media/projects/responsive/team.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  100% {
+    background: url(../media/projects/responsive/about.png) no-repeat fixed;
+    background-size: 100%;
+    background-position: center;
+  }
+}
+
+@keyframes slide-2 {
+  25% {
+    background: url(../media/projects/buson/about.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  50% {
+    background: url(../media/projects/buson/animate.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  75% {
+    background: url(../media/projects/buson/blog.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  100% {
+    background: url(../media/projects/buson/bottom.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
