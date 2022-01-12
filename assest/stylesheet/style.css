@@ -448,7 +448,7 @@ button {
 }
 
 .primery-btn {
-  border: 1px solid yellow;
+  border: 1px solid #f8f887;
 }
 
 .primery-btn a {
@@ -521,7 +521,7 @@ h3:hover {
 h4 {
   font-size: 1.6rem;
   font-weight: 600;
-  color: #365ad1;
+  color: var(--text-dark);
 }
 
 .box {
@@ -653,6 +653,7 @@ h5 {
 .preview span i {
   padding: 0.6rem;
   font-size: 2.2rem;
+  color: var(--text-dark);
 }
 
 .preview span:hover {
